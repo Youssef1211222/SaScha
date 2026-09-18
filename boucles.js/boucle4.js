@@ -1,0 +1,11 @@
+const prompt = require("prompt-sync")();
+
+
+let nombre = parseInt(prompt("entrez un nombre: "));
+
+
+for (i =1 ; i <= nombre * 2 ; i ++) {
+    if ( i % 2 === 1) {
+        console.log(i)
+    }
+}
