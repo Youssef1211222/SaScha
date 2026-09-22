@@ -14,7 +14,7 @@ let r = parseInt(prompt("quel le nombre tu vous rechercher: "))
 for (let i = 0 ; i < valuN ; i ++) {
     if(tableau[i] === r) {
         console.log(`le nombre ${r} disponible`);
-    }else {
-        return console.log(`le nombre ${r} no disponible`)
+
     }
-} 
+}
+
